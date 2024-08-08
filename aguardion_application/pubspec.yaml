@@ -1,0 +1,28 @@
+name: aguardion_application
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter_native_splash:
+  color: "#002A41"
+  image: "assets/Logosplash.png"
+  android: true
+  ios: true
+
+flutter:
+  uses-material-design: true
+  assets:
+     - assets/Logosplash.png
