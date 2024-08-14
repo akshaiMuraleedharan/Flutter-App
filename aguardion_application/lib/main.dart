@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dashboard.dart';
 
 void main() {
   runApp(const MainApp());
@@ -73,7 +74,10 @@ class LoginScreen extends StatelessWidget {
                     const SizedBox(height: 20),
                     FilledButton(
                       onPressed: () {
-                       
+                       Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => const Dashboard()),
+                        );
                       },
                       style: FilledButton.styleFrom(
                         backgroundColor: const Color(0xFF51C0B1),

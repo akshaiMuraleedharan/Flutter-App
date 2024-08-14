@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_native_splash: ^2.4.1
+ # flutter_preview: ^1.0.2
 
 dev_dependencies:
   flutter_test:
