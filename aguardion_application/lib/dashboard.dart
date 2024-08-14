@@ -63,7 +63,7 @@ class Dashboard extends StatelessWidget {
             labelColor: Colors.white,
             unselectedLabelColor: Colors.grey,
             indicatorSize: TabBarIndicatorSize.tab,
-            //indicatorPadding: EdgeInsets.zero,
+            indicatorPadding: EdgeInsets.zero,
             labelPadding: EdgeInsets.symmetric(horizontal: 2.0),
             labelStyle: TextStyle(fontSize: 12),
           ),
@@ -104,8 +104,8 @@ class Dashboard extends StatelessWidget {
         color: color,
         borderRadius: BorderRadius.circular(10),
         border: Border.all(
-          color: borderColor, // Dynamic border color based on the card
-          width: 3.0, // 3px solid border
+          color: borderColor, 
+          width: 3.0, 
         ),
       ),
       child: Center(
@@ -120,7 +120,6 @@ class Dashboard extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            //const SizedBox(height: 2),
             Text(
               label,
               style: const TextStyle(
@@ -141,7 +140,7 @@ class Dashboard extends StatelessWidget {
         color: Colors.white,
         borderRadius: BorderRadius.circular(10),
         border: Border.all(
-          color: const Color(0xFF666666), // 1px solid #666666 border
+          color: const Color(0xFF666666), 
           width: 1.0,
         ),
       ),
@@ -179,7 +178,7 @@ class Dashboard extends StatelessWidget {
             color: color,
             borderRadius: BorderRadius.circular(10),
             border: Border.all(
-              color: const Color(0xFF666666), // 1px solid #666666 border
+              color: const Color(0xFF666666), 
               width: 1.0,
             ),
           ),
@@ -195,7 +194,6 @@ class Dashboard extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-                //const SizedBox(height: 4),
                 Text(
                   label,
                   style: const TextStyle(
