@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'inventory.dart';
+import 'inventory_status.dart';
 
 class Dashboard extends StatelessWidget {
   const Dashboard({super.key});
@@ -34,8 +36,8 @@ class Dashboard extends StatelessWidget {
         body: TabBarView(
           children: [
             buildDashboardContent(),
-            const Center(child: Text('Inventory')),
-            const Center(child: Text('Inventory Status')),
+            const InventoryPage(),
+            const InventoryStatusPage(),
             const Center(child: Text('Payment')),
           ],
         ),
